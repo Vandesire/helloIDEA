@@ -1,50 +1,46 @@
 package com.test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author Nameisempty
  * @create 2018-11-13 13:46
  */
 public class TemplatesTest {
+
     public static void main(String[] args) {
 
-        int num1 = 2;
-        System.out.println("num1 = " + num1);
+        String in = "abbccddde";
 
+        //顺序非重复list
+        List<String> list = new ArrayList<>();
+        //map统计，顺序
+        Map<String, Integer> zipMap = new HashMap<>();
 
-        String[] arr = new String[]{"Tom","Honny","Lilei"};
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        //次数统计
+        int counts  = 0;
+        for (int i = 0; i < in.length(); i++) {
+            String s = in.substring(i, i + 1);
+            Integer count = zipMap.get(s);
+            //未set
+            if(count == null){
+                zipMap.put(s, 1);
+                list.add(s);
+            }else {
+                //已set
+                count += 1;
+                zipMap.put(s, count);
+            }
+
         }
 
-        for (String s : arr) {
-            System.out.println(s);
-        }
+        StringBuilder result = new StringBuilder();
+        list.forEach( x -> {
+            Integer count = zipMap.get(x);
+            result.append(count).append(x);
+        });
 
-        for (int i = 0; i < arr.length; i++) {
-            String s = arr[i];
-            System.out.println(s);
-        }
-
-        List list = new ArrayList();
-        list.add(222);
-        list.add(111);
-        list.add(333);
-
-        list.remove(Integer.valueOf(222));
-
-        for (Object o : list) {
-            System.out.println(o);
-        }
-    }
-
-    public static final int num = 2;
-
-    public void test1(){
-
-        System.out.println("TemplatesTest.test1");
+        System.out.println(result.toString());
     }
 
 
