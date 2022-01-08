@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa4d0763-d36a-4637-a9ec-424b73a54aa3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/com/test/ModuleTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/com/test/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/com/test/TemplatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/com/test/TemplatesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/com/test/person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticWebDemo/StaticWebDemo.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20gTrEGAVVJPgJIJnhcdHsuqKf8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.TemplatesTest">
+    <configuration name="TemplatesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.TemplatesTest" />
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zmp.test.hello" />
+      <module name="helloIDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TemplatesTest" />
+        <item itemvalue="Application.hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="" />
+      <created>1636465429250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636465429250</updated>
+      <workItem from="1636465431315" duration="856000" />
+      <workItem from="1636466333289" duration="102000" />
+      <workItem from="1636466444461" duration="541000" />
+      <workItem from="1636466995320" duration="11000" />
+      <workItem from="1637998759708" duration="972000" />
+      <workItem from="1638755545813" duration="631000" />
+      <workItem from="1639039787759" duration="2125000" />
+      <workItem from="1640750575642" duration="96000" />
+      <workItem from="1640750697998" duration="347000" />
+      <workItem from="1640751081773" duration="47000" />
+      <workItem from="1640751137789" duration="82000" />
+      <workItem from="1640751229502" duration="24000" />
+      <workItem from="1640751265662" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
