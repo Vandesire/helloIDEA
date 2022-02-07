@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="druid-1.0.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/druid-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/mysql-connector-java-8.0.28.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-beans-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-beans-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-core-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-core-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-jdbc-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-jdbc-5.0.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ModuleTest/lib/spring-tx-5.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
