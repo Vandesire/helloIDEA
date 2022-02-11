@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_37_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/annotation/AnnoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/check/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/check/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/check/TestCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/test/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/test/ReflectTestByAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/test/TemplatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/com/test/TemplatesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ModuleTest/com/test/TemplatesTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +262,7 @@
       <workItem from="1640751265662" duration="79000" />
       <workItem from="1641625308816" duration="22902000" />
       <workItem from="1641959987930" duration="1355000" />
-      <workItem from="1643122373136" duration="15163000" />
+      <workItem from="1643122373136" duration="15933000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -311,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641625480841</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="preTest1">
+      <created>1644244228273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644244228273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="清理" />
-    <option name="LAST_COMMIT_MESSAGE" value="清理" />
+    <MESSAGE value="preTest1" />
+    <option name="LAST_COMMIT_MESSAGE" value="preTest1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
