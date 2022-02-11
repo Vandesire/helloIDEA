@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="" />
+    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="preTest2">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,7 +265,7 @@
       <workItem from="1640751265662" duration="79000" />
       <workItem from="1641625308816" duration="22902000" />
       <workItem from="1641959987930" duration="1355000" />
-      <workItem from="1643122373136" duration="15933000" />
+      <workItem from="1643122373136" duration="17873000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -285,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644244228273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="preTest2">
+      <created>1644586094423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644586094423</updated>
+    </task>
+    <task id="LOCAL-00005" summary="preTest2">
+      <created>1644586100709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644586100709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +323,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="清理" />
     <MESSAGE value="preTest1" />
-    <option name="LAST_COMMIT_MESSAGE" value="preTest1" />
+    <MESSAGE value="preTest2" />
+    <option name="LAST_COMMIT_MESSAGE" value="preTest2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
