@@ -1,0 +1,10 @@
+mul方法出现异常!
+异常名称: NullPointerException
+异常原因: null
+------------------
+add方法出现异常!
+异常名称: NullPointerException
+异常原因: null
+------------------
+本次测试执行结束，共执行：4
+出现异常个数：2
