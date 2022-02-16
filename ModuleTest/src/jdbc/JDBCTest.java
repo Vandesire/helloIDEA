@@ -37,6 +37,7 @@ public class JDBCTest {
                 System.out.print(entry.getKey() + " : " + entry.getValue() + " ");
             }
         });
+        System.out.println();
 
     }
 

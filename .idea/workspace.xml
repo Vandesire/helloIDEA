@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="preTest2">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/test/TemplatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/test/ZipTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
       <recent name="$PROJECT_DIR$/ModuleTest/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCTest.testJDBCTemplateUpdate">
+  <component name="RunManager" selected="JUnit.JDBCTest.testJDBCTemplate">
     <configuration name="JDBCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
@@ -225,17 +228,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8" />
       <item itemvalue="JUnit.JDBCTest.testJDBC" />
       <item itemvalue="JUnit.JDBCTest" />
       <item itemvalue="JUnit.JDBCTest.testJDBCUtils" />
       <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
       <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
         <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
+        <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
         <item itemvalue="JUnit.JDBCTest.testJDBCUtils" />
         <item itemvalue="JUnit.JDBCTest.testJDBC" />
         <item itemvalue="JUnit.JDBCTest" />
@@ -265,7 +268,11 @@
       <workItem from="1640751265662" duration="79000" />
       <workItem from="1641625308816" duration="22902000" />
       <workItem from="1641959987930" duration="1355000" />
-      <workItem from="1643122373136" duration="17873000" />
+      <workItem from="1643122373136" duration="19331000" />
+      <workItem from="1644854050465" duration="673000" />
+      <workItem from="1644936004290" duration="599000" />
+      <workItem from="1645014080591" duration="614000" />
+      <workItem from="1645024977248" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -302,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644586100709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="preTest">
+      <created>1644588511396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644588511396</updated>
+    </task>
+    <task id="LOCAL-00007" summary="文件清理">
+      <created>1644588801016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644588801016</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +345,9 @@
     <MESSAGE value="清理" />
     <MESSAGE value="preTest1" />
     <MESSAGE value="preTest2" />
-    <option name="LAST_COMMIT_MESSAGE" value="preTest2" />
+    <MESSAGE value="preTest" />
+    <MESSAGE value="文件清理" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件清理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

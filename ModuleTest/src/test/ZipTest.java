@@ -6,7 +6,7 @@ import java.util.*;
  * @author Nameisempty
  * 字符串简易压缩
  */
-public class TemplatesTest {
+public class ZipTest {
 
     public static void main(String[] args) {
 
