@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-212.5457.46">
-    <data-source name="galaxy_db_ssm@localhost" uuid="fa4d0763-d36a-4637-a9ec-424b73a54aa3">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
-      <secret-storage>forget</secret-storage>
-      <schema-mapping />
+    <data-source name="mysql_ubantu" uuid="26897e2c-dc88-4b69-92fd-b826486a703b">
+      <database-info product="MySQL" version="8.0.27-0ubuntu0.21.10.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.27" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>liupu</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="db_test" />
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

@@ -22,5 +22,7 @@
     <orderEntry type="library" name="druid-1.0.9" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="jedis-2.7.0" level="project" />
+    <orderEntry type="library" name="commons-pool2-2.3" level="project" />
   </component>
 </module>

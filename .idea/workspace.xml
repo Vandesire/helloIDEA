@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/redis/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/test/TemplatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/test/ZipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -53,53 +58,23 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ModuleTest/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL, MariaDB" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ModuleTest/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ModuleTest/lib" />
       <recent name="$PROJECT_DIR$/ModuleTest" />
       <recent name="$PROJECT_DIR$/ModuleTest/src/lib" />
       <recent name="$PROJECT_DIR$/ModuleTest/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCTest.testJDBCTemplate">
-    <configuration name="JDBCTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.JDBCTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBCTest.testJDBC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.JDBCTest" />
-      <option name="METHOD_NAME" value="testJDBC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JedisTest.jedisPoolTest">
     <configuration name="JDBCTest.testJDBCTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
@@ -143,6 +118,38 @@
       <option name="PACKAGE_NAME" value="jdbc" />
       <option name="MAIN_CLASS_NAME" value="jdbc.JDBCTest" />
       <option name="METHOD_NAME" value="testJDBCUtils" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.jedisPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="jedisPoolTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.jedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="jedisTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,20 +235,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JDBCTest.testJDBC" />
-      <item itemvalue="JUnit.JDBCTest" />
       <item itemvalue="JUnit.JDBCTest.testJDBCUtils" />
       <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
       <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="JUnit.JedisTest.jedisTest" />
+      <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
+        <item itemvalue="JUnit.JedisTest.jedisTest" />
         <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
         <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
         <item itemvalue="JUnit.JDBCTest.testJDBCUtils" />
-        <item itemvalue="JUnit.JDBCTest.testJDBC" />
-        <item itemvalue="JUnit.JDBCTest" />
       </list>
     </recent_temporary>
   </component>
