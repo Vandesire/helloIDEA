@@ -5,6 +5,8 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
+import java.util.Set;
+
 /**
  * @author 刘璞
  * @version 1.0
@@ -12,6 +14,9 @@ import redis.clients.jedis.JedisPoolConfig;
  */
 public class JedisTest {
 
+    /**
+     * v1.0 jedis直连
+     */
     @Test
     public void jedisTest(){
 
@@ -42,6 +47,9 @@ public class JedisTest {
     }
 
 
+    /**
+     * v2.0 jedisPool 连接池
+     */
     @Test
     public void jedisPoolTest(){
         //1.创建连接池配置对象
@@ -61,6 +69,21 @@ public class JedisTest {
 
         jedis.close();
 
+    }
+
+
+    /**
+     * v3.0 jedisPoolUtils 工具类
+     */
+    @Test
+    public void jedisPoolUtilsTest(){
+        Jedis jedis = JedisPoolUtils.getJedis();
+        Set<String> keys = jedis.keys("*");
+        for (String key : keys) {
+            String type = jedis.type(key);
+            System.out.println("type: " + type + ", key: " + key);
+        }
+        jedis.close();
     }
 
 }

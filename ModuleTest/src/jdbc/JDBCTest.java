@@ -16,6 +16,10 @@ import java.util.Properties;
  */
 public class JDBCTest {
 
+
+    /**
+     * version 4.0 JDBCTemplate 进一步封装sql操作（参数传递）
+     */
     @Test
     public void testJDBCTemplateUpdate(){
 
@@ -42,6 +46,10 @@ public class JDBCTest {
     }
 
 
+    /**
+     * v3.0 工具类--封装连接池
+     * @throws Exception
+     */
     @Test
     public void testJDBCUtils() throws Exception{
         Connection connection = JDBCUtils.getConnection();
@@ -60,6 +68,10 @@ public class JDBCTest {
     }
 
 
+    /**
+     * v2.0 使用属性文件管理配置
+     * @throws Exception
+     */
     @Test
     public void testJDBC() throws Exception {
 
@@ -109,7 +121,10 @@ public class JDBCTest {
             e.printStackTrace();
         }
 
-
     }
+
+    /**
+     * v1.0 明文参数
+     */
 
 }

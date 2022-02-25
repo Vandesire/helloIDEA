@@ -4,6 +4,7 @@ import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,16 +22,15 @@ public class JDBCUtils {
     private static DataSource ds;
 
     static{
+        //1.加载配置文件
+        Properties properties = new Properties();
+        InputStream inputStream = JDBCUtils.class.getClassLoader().getResourceAsStream("druid.properties");
+//            FileInputStream fileInputStream = new FileInputStream("/Users/mac/IdeaProjects/helloIDEA/ModuleTest/src/jdbc/druid.properties");
         try {
-            //1.加载配置文件
-            Properties properties = new Properties();
-            FileInputStream fileInputStream = new FileInputStream("/Users/mac/IdeaProjects/helloIDEA/ModuleTest/src/jdbc/druid.properties");
-            properties.load(fileInputStream);
-            fileInputStream.close();
-
+            properties.load(inputStream);
+            inputStream.close();
             //2.获取连接池对象
-             ds = DruidDataSourceFactory.createDataSource(properties);
-
+            ds = DruidDataSourceFactory.createDataSource(properties);
         } catch (Exception e) {
             e.printStackTrace();
         }
