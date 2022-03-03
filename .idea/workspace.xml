@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/jedisPool.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/redis/JedisPoolUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/io/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa4d0763-d36a-4637-a9ec-424b73a54aa3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa4d0763-d36a-4637-a9ec-424b73a54aa3/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa4d0763-d36a-4637-a9ec-424b73a54aa3/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jdbc/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jdbc/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/redis/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/redis/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/maven_repo" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven_repo/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="20gTrEGAVVJPgJIJnhcdHsuqKf8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,10 +64,10 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ModuleTest/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MySQL, MariaDB" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,50 +80,50 @@
       <recent name="$PROJECT_DIR$/ModuleTest/src/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JedisTest.jedisPoolUtilsTest">
-    <configuration name="JDBCTest.testJDBCTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FileTest.fileRemoveTest">
+    <configuration name="FileTest.fileRemoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.JDBCTest" />
-      <option name="METHOD_NAME" value="testJDBCTemplate" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.FileTest" />
+      <option name="METHOD_NAME" value="fileRemoveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCTest.testJDBCTemplateUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOTest.fileRemoveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.JDBCTest" />
-      <option name="METHOD_NAME" value="testJDBCTemplateUpdate" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="fileRemoveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisTest.jedisPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOTest.fileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="redis.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="redis" />
-      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
-      <option name="METHOD_NAME" value="jedisPoolTest" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="fileTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,20 +241,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
-      <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
-      <item itemvalue="Tomcat Server.Tomcat 8" />
-      <item itemvalue="JUnit.JedisTest.jedisTest" />
-      <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
       <item itemvalue="JUnit.JedisTest.jedisPoolUtilsTest" />
+      <item itemvalue="JUnit.JedisTest.jedisTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="JUnit.IOTest.fileTest" />
+      <item itemvalue="JUnit.IOTest.fileRemoveTest" />
+      <item itemvalue="JUnit.FileTest.fileRemoveTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JedisTest.jedisPoolUtilsTest" />
-        <item itemvalue="JUnit.JDBCTest.testJDBCTemplate" />
-        <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
+        <item itemvalue="JUnit.FileTest.fileRemoveTest" />
+        <item itemvalue="JUnit.IOTest.fileRemoveTest" />
+        <item itemvalue="JUnit.IOTest.fileTest" />
         <item itemvalue="JUnit.JedisTest.jedisTest" />
-        <item itemvalue="JUnit.JDBCTest.testJDBCTemplateUpdate" />
+        <item itemvalue="JUnit.JedisTest.jedisPoolUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +286,10 @@
       <workItem from="1644936004290" duration="599000" />
       <workItem from="1645014080591" duration="614000" />
       <workItem from="1645024977248" duration="895000" />
+      <workItem from="1646235992020" duration="245000" />
+      <workItem from="1646237125093" duration="375000" />
+      <workItem from="1646237518060" duration="1833000" />
+      <workItem from="1646285592415" duration="5711000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -336,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645550724489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="jedis test v2">
+      <created>1645770487933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645770487933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +382,8 @@
     <MESSAGE value="preTest" />
     <MESSAGE value="文件清理" />
     <MESSAGE value="jedis test" />
-    <option name="LAST_COMMIT_MESSAGE" value="jedis test" />
+    <MESSAGE value="jedis test v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jedis test v2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
