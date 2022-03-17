@@ -63,21 +63,20 @@ public class FileTest {
             File[] files = file.listFiles();
             if(null == files){
                 System.out.println("removeDirectory: " + file.getName() + " result: " + file.delete());
-            }else {
-                //文件夹不为空
-                for (File f : files) {
-                    //子file为文件夹进一步递归判断
-                    if(f.isDirectory()){
-                        removeFile(f);
-                    }
-                    //文件直接删
-                    if(f.isFile()){
-                        System.out.println("removeFile: " + f.getName() + " result: " + f.delete());
-                    }
-                }
-                //文件删完后删除文件夹
-                System.out.println("removeDirectory: " + file.getName() + " result: " + file.delete());
             }
+            //文件夹不为空
+            for (File f : files) {
+                //子file为文件夹进一步递归判断
+                if(f.isDirectory()){
+                    removeFile(f);
+                }
+                //文件直接删
+                if(f.isFile()){
+                    System.out.println("removeFile: " + f.getName() + " result: " + f.delete());
+                }
+            }
+            //文件删完后删除文件夹
+            System.out.println("removeDirectory: " + file.getName() + " result: " + file.delete());
         }
 
         if(file.isFile()){
