@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadDaemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/io/IOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuleTest/src/io/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/io/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -74,85 +75,89 @@
       <recent name="$PROJECT_DIR$/ModuleTest/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ModuleTest/src" />
-      <recent name="$PROJECT_DIR$/ModuleTest/lib" />
       <recent name="$PROJECT_DIR$/ModuleTest" />
+      <recent name="$PROJECT_DIR$/ModuleTest/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ModuleTest/lib" />
       <recent name="$PROJECT_DIR$/ModuleTest/src/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThreadTest.testCallable">
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
+  <component name="RunManager" selected="JUnit.IOTest.testObjectOutputStream">
+    <configuration name="IOTest.testBufferReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest.testCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
-      <option name="METHOD_NAME" value="testCallable" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="testBufferReader" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.testDaemon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOTest.testFileI_base" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
-      <option name="METHOD_NAME" value="testDaemon" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="testFileI_base" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.testRunnable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOTest.testFileI_code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
-      <option name="METHOD_NAME" value="testRunnable" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="testFileI_code" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest.testSaleTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IOTest.testFileReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="thread" />
-      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
-      <option name="METHOD_NAME" value="testSaleTicket" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="testFileReader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOTest.testObjectOutputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
+      <option name="METHOD_NAME" value="testObjectOutputStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,20 +243,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.IOTest.testFileReader" />
+      <item itemvalue="JUnit.IOTest.testFileI_base" />
+      <item itemvalue="JUnit.IOTest.testFileI_code" />
+      <item itemvalue="JUnit.IOTest.testBufferReader" />
+      <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
-      <item itemvalue="Application.ThreadTest" />
-      <item itemvalue="JUnit.ThreadTest.testDaemon" />
-      <item itemvalue="JUnit.ThreadTest.testRunnable" />
-      <item itemvalue="JUnit.ThreadTest.testSaleTicket" />
-      <item itemvalue="JUnit.ThreadTest.testCallable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThreadTest.testCallable" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="JUnit.ThreadTest.testSaleTicket" />
-        <item itemvalue="JUnit.ThreadTest.testRunnable" />
-        <item itemvalue="JUnit.ThreadTest.testDaemon" />
+        <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
+        <item itemvalue="JUnit.IOTest.testBufferReader" />
+        <item itemvalue="JUnit.IOTest.testFileReader" />
+        <item itemvalue="JUnit.IOTest.testFileI_code" />
+        <item itemvalue="JUnit.IOTest.testFileI_base" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +291,11 @@
       <workItem from="1646235992020" duration="245000" />
       <workItem from="1646237125093" duration="375000" />
       <workItem from="1646237518060" duration="1833000" />
-      <workItem from="1646285592415" duration="28086000" />
+      <workItem from="1646285592415" duration="39906000" />
+      <workItem from="1647618509339" duration="18342000" />
+      <workItem from="1648539797021" duration="3408000" />
+      <workItem from="1648609432815" duration="5049000" />
+      <workItem from="1648656474665" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -358,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646291496693</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="thread test">
+      <created>1647488758895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647488758895</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +404,8 @@
     <MESSAGE value="jedis test" />
     <MESSAGE value="jedis test v2" />
     <MESSAGE value="file test" />
-    <option name="LAST_COMMIT_MESSAGE" value="file test" />
+    <MESSAGE value="thread test" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,8 +417,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java</url>
-          <line>195</line>
+          <line>200</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ModuleTest/src/io/IOTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ModuleTest/src/io/IOTest.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

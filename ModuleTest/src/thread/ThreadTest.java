@@ -1,10 +1,11 @@
 package thread;
 
+import com.alibaba.druid.support.json.JSONUtils;
 import org.junit.Test;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
 
 /**
  * @author 刘璞
@@ -114,6 +115,7 @@ public class ThreadTest {
 
     /**
      * 多线程实现方式2：实现runnable接口，本质还是依靠thread实例执行
+     * **不带返回值
      */
     @Test
     public void testRunnable(){
@@ -137,9 +139,9 @@ public class ThreadTest {
     /**
      * 模拟三个窗口同时卖票
      */
-//    @Test
-//    public void testSaleTicket()
-    public static void main(String args[]){
+    @Test
+    public void testSaleTicket(){
+//    public static void main(String args[]){
 
         Runnable sale = new Runnable() {
             private Object obj = new Object();
@@ -175,6 +177,9 @@ public class ThreadTest {
     }
 
 
+    /**
+     * 带返回值的线程
+     */
     @Test
     public void testCallable(){
         Callable<String> call = new Callable<String>() {
@@ -200,6 +205,103 @@ public class ThreadTest {
             e.printStackTrace();
         }
         System.out.println(s);
+
+    }
+
+
+    /**
+     * 线程池测试
+     */
+    @Test
+    public void testThreadPool(){
+
+        List<Runnable> runnableExecuteList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            String s = String.valueOf(i);
+            Runnable runnable = new Runnable() {
+
+                @Override
+                public void run(){
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("runnable_execute: " + s);
+                }
+            };
+            runnableExecuteList.add(runnable);
+        }
+
+        List<Runnable> runnableSubmitList = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            String s = String.valueOf(i);
+            Runnable runnable = new Runnable() {
+
+                @Override
+                public void run(){
+                    System.out.println("runnable_submit: " + s);
+                }
+            };
+            runnableSubmitList.add(runnable);
+        }
+
+        List<Callable> callableList = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            String s = String.valueOf(i);
+            Callable<String> call = new Callable() {
+
+                @Override
+                public Object call() throws Exception {
+                    Thread.sleep(1000);
+                    return "calling: " + s;
+                }
+            };
+            callableList.add(call);
+        }
+
+        //默认线程工厂，拒绝策略：丢弃任务
+        ThreadPoolExecutor threadPool = new ThreadPoolExecutor(5, 10, 10, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(10), Executors.defaultThreadFactory(), new ThreadPoolExecutor.AbortPolicy());
+
+        System.out.println("------------execute()_runnable----------");
+        for (Runnable runnable : runnableExecuteList) {
+            threadPool.execute(runnable);
+        }
+
+        System.out.println("------------submit()_runnable-----------");
+        for (Runnable runnable : runnableSubmitList) {
+            Future<?> future = threadPool.submit(runnable);
+            //get会阻塞当前主线程
+//            try {
+//                System.out.println(future.get());
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            } catch (ExecutionException e) {
+//                e.printStackTrace();
+//            }
+        }
+
+        //关闭线程池-- 等待任务执行结束
+        System.out.println("--------线程池关闭------");
+//        threadPool.shutdown();
+
+        //无等待立即关闭，并返回未执行任务
+        List<Runnable> noRunnableList = threadPool.shutdownNow();
+        System.out.println("noRunList.size: " + noRunnableList.size());
+
+        System.out.println("------------submit()_callable-----------");
+        for (Callable callable : callableList) {
+            Future future = threadPool.submit(callable);
+            try {
+                System.out.println(future.get());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 

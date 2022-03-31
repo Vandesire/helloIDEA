@@ -12,6 +12,9 @@ import java.io.File;
 public class FileTest {
 
 
+    /**
+     * 遍历当前文件夹
+     */
     @Test
     public void fileListTest(){
 
@@ -43,6 +46,9 @@ public class FileTest {
         }
     }
 
+    /**
+     * 删除
+     */
     @Test
     public void fileRemoveTest(){
         File file = new File("/Users/mac/IdeaProjects/helloIDEA1");
@@ -50,7 +56,7 @@ public class FileTest {
     }
 
     /**
-     * 遍历删除文件夹
+     * 遍历删除文件夹（包含根文件夹）
      * @param file
      */
     public void removeFile(File file){
