@@ -215,6 +215,7 @@ public class ThreadTest {
     @Test
     public void testThreadPool(){
 
+        //runnableExecute
         List<Runnable> runnableExecuteList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             String s = String.valueOf(i);
@@ -233,6 +234,7 @@ public class ThreadTest {
             runnableExecuteList.add(runnable);
         }
 
+        //runnableSubmit
         List<Runnable> runnableSubmitList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             String s = String.valueOf(i);
@@ -246,6 +248,7 @@ public class ThreadTest {
             runnableSubmitList.add(runnable);
         }
 
+        //callable
         List<Callable> callableList = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {

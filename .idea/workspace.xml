@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ModuleTest/123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/io/IOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/io/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/io/FileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,20 +240,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IOTest.testFileReader" />
+      <item itemvalue="JUnit.IOTest.testBufferReader" />
       <item itemvalue="JUnit.IOTest.testFileI_base" />
       <item itemvalue="JUnit.IOTest.testFileI_code" />
-      <item itemvalue="JUnit.IOTest.testBufferReader" />
+      <item itemvalue="JUnit.IOTest.testFileReader" />
       <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
-        <item itemvalue="JUnit.IOTest.testBufferReader" />
         <item itemvalue="JUnit.IOTest.testFileReader" />
         <item itemvalue="JUnit.IOTest.testFileI_code" />
         <item itemvalue="JUnit.IOTest.testFileI_base" />
+        <item itemvalue="JUnit.IOTest.testBufferReader" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +292,16 @@
       <workItem from="1647618509339" duration="18342000" />
       <workItem from="1648539797021" duration="3408000" />
       <workItem from="1648609432815" duration="5049000" />
-      <workItem from="1648656474665" duration="2276000" />
+      <workItem from="1648656474665" duration="2475000" />
+      <workItem from="1650179637078" duration="605000" />
+      <workItem from="1650377653123" duration="143000" />
+      <workItem from="1650377807021" duration="155000" />
+      <workItem from="1650377973545" duration="221000" />
+      <workItem from="1650378206690" duration="350000" />
+      <workItem from="1650378568060" duration="190000" />
+      <workItem from="1650378772432" duration="48000" />
+      <workItem from="1650439211182" duration="40000" />
+      <workItem from="1650439260895" duration="5929000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -374,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647488758895</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="IO test">
+      <created>1648738493477</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738493477</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +418,8 @@
     <MESSAGE value="jedis test v2" />
     <MESSAGE value="file test" />
     <MESSAGE value="thread test" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread test" />
+    <MESSAGE value="IO test" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
