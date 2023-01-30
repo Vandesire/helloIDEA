@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/check/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/reflect/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/check/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/annotation/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/check/TestCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/reflect/TestCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/test/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/test/ReflectTestByAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/reflect/ReflectTestByAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/test/ZipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/ZipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/ZipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/ZipTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +301,19 @@
       <workItem from="1650378568060" duration="190000" />
       <workItem from="1650378772432" duration="48000" />
       <workItem from="1650439211182" duration="40000" />
-      <workItem from="1650439260895" duration="8031000" />
+      <workItem from="1650439260895" duration="10543000" />
+      <workItem from="1653025993551" duration="22000" />
+      <workItem from="1653026026794" duration="1277000" />
+      <workItem from="1654783370125" duration="599000" />
+      <workItem from="1655257873518" duration="1208000" />
+      <workItem from="1655782063587" duration="17000" />
+      <workItem from="1655782084873" duration="74000" />
+      <workItem from="1655782879354" duration="2573000" />
+      <workItem from="1675059601119" duration="6000" />
+      <workItem from="1675059609739" duration="6000" />
+      <workItem from="1675059651203" duration="53000" />
+      <workItem from="1675059714277" duration="62000" />
+      <workItem from="1675060707109" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -399,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650592230015</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="清理">
+      <created>1651035819202</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651035819202</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +435,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="清理" />
     <MESSAGE value="preTest1" />
     <MESSAGE value="preTest2" />
     <MESSAGE value="preTest" />
@@ -432,7 +445,8 @@
     <MESSAGE value="thread test" />
     <MESSAGE value="IO test" />
     <MESSAGE value="注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="注释" />
+    <MESSAGE value="清理" />
+    <option name="LAST_COMMIT_MESSAGE" value="清理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
