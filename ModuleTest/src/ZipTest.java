@@ -9,7 +9,7 @@ public class ZipTest {
 
     public static void main(String[] args) {
 
-        String in = "aaabbccdddccccee";
+        String in = "aaabbccdddcee";
 
         //顺序非重复字符list
         List<String> charList = new ArrayList<>();
@@ -27,7 +27,6 @@ public class ZipTest {
             if(i == 0){
                 current = s;
                 charList.add(current);
-                break;
             }
 
             //当前字符与下一字符不一致，切换,count归0

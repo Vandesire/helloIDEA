@@ -35,7 +35,8 @@ public class JedisPoolUtils {
         config.setMaxTotal(Integer.parseInt(properties.getProperty("maxTotal")));
 
         //3.初始化连接池对象
-        jedisPool = new JedisPool(config, properties.getProperty("host"), Integer.parseInt(properties.getProperty("port")));
+        jedisPool = new JedisPool(config, properties.getProperty("host"), Integer.parseInt(properties.getProperty("port")),
+                Integer.parseInt(properties.getProperty("timeout")), properties.getProperty("password"));
     }
 
     /**

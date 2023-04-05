@@ -5,7 +5,9 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author 刘璞
@@ -305,6 +307,49 @@ public class ThreadTest {
                 e.printStackTrace();
             }
         }
+
+    }
+
+    /**
+     * interrupt相关test
+     * @throws Exception
+     */
+    @Test
+    public void testInterrupt() throws Exception{
+        //interrupt 会打断 sleep, wait, join, 不能打断synchronized，Lock锁竞争过程
+        ReentrantLock lock = new ReentrantLock();
+        Thread t1 = new Thread(() -> {
+            System.out.println("t1 start");
+            lock.lock();
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+                lock.unlock();
+            }
+            System.out.println("t1 end");
+        });
+
+        t1.start();
+        Thread.sleep(1000);
+
+        Thread t2 = new Thread(() -> {
+            System.out.println("t2 start");
+            try {
+                //lock状态下需要用到lockInterruptibly()上锁过程才能被允许打断
+//                lock.lockInterruptibly();
+                lock.lock();
+            } finally {
+                lock.unlock();
+            }
+            System.out.println("t2 end");
+        });
+
+        t2.start();
+        Thread.sleep(1000);
+
+        t2.interrupt();
 
     }
 

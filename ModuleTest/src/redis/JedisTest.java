@@ -22,6 +22,8 @@ public class JedisTest {
 
         //建立连接，获取连接对象
         Jedis jedis = new Jedis("172.16.221.132", 6379);
+        //设置密码
+        jedis.auth("root");
         try {
             //使用，方法名同命令行
             String result1 = jedis.set("password", "root");
@@ -57,8 +59,8 @@ public class JedisTest {
         config.setMaxTotal(50);
         config.setMaxIdle(10);
 
-        //2.创建连接池
-        JedisPool jedisPool = new JedisPool(config, "172.16.221.132", 6379);
+        //2.创建连接池（密码）
+        JedisPool jedisPool = new JedisPool(config, "172.16.221.132", 6379, 300,"root");
 
         //3.获取连接
         Jedis jedis = jedisPool.getResource();
@@ -78,6 +80,7 @@ public class JedisTest {
     @Test
     public void jedisPoolUtilsTest(){
         Jedis jedis = JedisPoolUtils.getJedis();
+        //获取所有元素
         Set<String> keys = jedis.keys("*");
         for (String key : keys) {
             String type = jedis.type(key);

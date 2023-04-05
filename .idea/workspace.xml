@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/LockSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/thread/SyncWaitNotifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/ModuleTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ModuleTest/src/ZipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/ZipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/jedisPool.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/jedisPool.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/redis/JedisPoolUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/redis/JedisPoolUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/redis/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/redis/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -65,7 +73,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -79,71 +87,7 @@
       <recent name="$PROJECT_DIR$/ModuleTest/src/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IOTest.testObjectOutputStream">
-    <configuration name="IOTest.testBufferReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
-      <option name="METHOD_NAME" value="testBufferReader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest.testFileI_base" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
-      <option name="METHOD_NAME" value="testFileI_base" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest.testFileI_code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
-      <option name="METHOD_NAME" value="testFileI_code" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOTest.testFileReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.IOTest" />
-      <option name="METHOD_NAME" value="testFileReader" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JedisTest.jedisPoolUtilsTest">
     <configuration name="IOTest.testObjectOutputStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
@@ -155,6 +99,70 @@
       <option name="PACKAGE_NAME" value="io" />
       <option name="MAIN_CLASS_NAME" value="io.IOTest" />
       <option name="METHOD_NAME" value="testObjectOutputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.jedisPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="jedisPoolTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.jedisPoolUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="jedisPoolUtilsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.jedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="jedisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest.testCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.ThreadTest" />
+      <option name="METHOD_NAME" value="testCallable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,20 +248,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IOTest.testBufferReader" />
-      <item itemvalue="JUnit.IOTest.testFileI_base" />
-      <item itemvalue="JUnit.IOTest.testFileI_code" />
-      <item itemvalue="JUnit.IOTest.testFileReader" />
-      <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
+      <item itemvalue="JUnit.ThreadTest.testCallable" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="JUnit.JedisTest.jedisTest" />
+      <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
+      <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
+      <item itemvalue="JUnit.JedisTest.jedisPoolUtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JedisTest.jedisPoolUtilsTest" />
+        <item itemvalue="JUnit.JedisTest.jedisPoolTest" />
+        <item itemvalue="JUnit.JedisTest.jedisTest" />
         <item itemvalue="JUnit.IOTest.testObjectOutputStream" />
-        <item itemvalue="JUnit.IOTest.testFileReader" />
-        <item itemvalue="JUnit.IOTest.testFileI_code" />
-        <item itemvalue="JUnit.IOTest.testFileI_base" />
-        <item itemvalue="JUnit.IOTest.testBufferReader" />
+        <item itemvalue="JUnit.ThreadTest.testCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +321,11 @@
       <workItem from="1675059609739" duration="6000" />
       <workItem from="1675059651203" duration="53000" />
       <workItem from="1675059714277" duration="62000" />
-      <workItem from="1675060707109" duration="1636000" />
+      <workItem from="1675060707109" duration="5018000" />
+      <workItem from="1675267686767" duration="9960000" />
+      <workItem from="1675391787899" duration="69799000" />
+      <workItem from="1676434921973" duration="6041000" />
+      <workItem from="1678708891820" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -413,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651035819202</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fill note">
+      <created>1675094584476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675094584476</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,19 +465,15 @@
     <MESSAGE value="IO test" />
     <MESSAGE value="注释" />
     <MESSAGE value="清理" />
-    <option name="LAST_COMMIT_MESSAGE" value="清理" />
+    <MESSAGE value="fill note" />
+    <option name="LAST_COMMIT_MESSAGE" value="fill note" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ModuleTest/src/thread/ThreadSleep.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ModuleTest/src/thread/ThreadTest.java</url>
-          <line>200</line>
+          <line>202</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -470,6 +485,11 @@
           <url>file://$PROJECT_DIR$/ModuleTest/src/io/IOTest.java</url>
           <line>179</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ModuleTest/src/ZipTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
