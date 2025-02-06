@@ -173,7 +173,7 @@ public class IOTest {
         ObjectInputStream ois = null;
         try {
             oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("序列化.txt")));
-            oos.writeObject(new String("序列化测试！！！！"));
+            oos.writeObject(new String("序列化测试!!!!"));
             oos.close();
 
             ois = new ObjectInputStream(new BufferedInputStream(new FileInputStream("序列化.txt")));
