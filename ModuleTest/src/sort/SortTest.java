@@ -48,7 +48,7 @@ public class SortTest {
      * 0 -> n-1 有序
      * @param arr
      */
-    private void insertSort(int[] arr) {
+    public static void insertSort(int[] arr) {
         if(null == arr || arr.length < 2){
             return;
         }
@@ -118,7 +118,7 @@ public class SortTest {
      * @param i
      * @param j
      */
-    private void swap(int[] arr, int i, int j){
+    public static void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

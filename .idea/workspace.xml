@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0015076b-e020-4500-a751-d2886fe20483" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/binary/BinaryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ModuleTest/src/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/bs/BSExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/sort/LinkListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/sort/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ModuleTest/src/sort/QuickSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ModuleTest/src/io/IOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/io/IOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModuleTest/src/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ModuleTest/src/sort/SortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -62,22 +60,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
-    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ModuleTest/lib" />
@@ -90,39 +88,24 @@
       <recent name="$PROJECT_DIR$/ModuleTest/src/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortTest.insertSort2Test">
-    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QuickSortTest.testQuickSort">
+    <configuration name="FileTest.fileListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SortTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.bubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ModuleTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SortTest" />
-      <option name="METHOD_NAME" value="bubbleSortTest" />
+      <option name="PACKAGE_NAME" value="io" />
+      <option name="MAIN_CLASS_NAME" value="io.FileTest" />
+      <option name="METHOD_NAME" value="fileListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.insertSort2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkListTest.testRangeReverseSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SortTest" />
-      <option name="METHOD_NAME" value="insertSort2Test" />
+      <option name="MAIN_CLASS_NAME" value="sort.LinkListTest" />
+      <option name="METHOD_NAME" value="testRangeReverseSingle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.insertSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
@@ -147,14 +130,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SortTest" />
-      <option name="METHOD_NAME" value="insertSortTest" />
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="testMergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortTest.selectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortTest.testFastSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ModuleTest" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +146,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.SortTest" />
-      <option name="METHOD_NAME" value="selectionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSortTest" />
+      <option name="METHOD_NAME" value="testFastSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ModuleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSortTest" />
+      <option name="METHOD_NAME" value="testQuickSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,20 +249,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SortTest" />
-      <item itemvalue="JUnit.SortTest.bubbleSortTest" />
-      <item itemvalue="JUnit.SortTest.insertSort2Test" />
-      <item itemvalue="JUnit.SortTest.insertSortTest" />
-      <item itemvalue="JUnit.SortTest.selectionSortTest" />
+      <item itemvalue="JUnit.FileTest.fileListTest" />
+      <item itemvalue="JUnit.LinkListTest.testRangeReverseSingle" />
+      <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
+      <item itemvalue="JUnit.QuickSortTest.testFastSort" />
+      <item itemvalue="JUnit.QuickSortTest.testQuickSort" />
       <item itemvalue="Tomcat Server.Tomcat 8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortTest.insertSort2Test" />
-        <item itemvalue="JUnit.SortTest.insertSortTest" />
-        <item itemvalue="JUnit.SortTest.bubbleSortTest" />
-        <item itemvalue="JUnit.SortTest" />
-        <item itemvalue="JUnit.SortTest.selectionSortTest" />
+        <item itemvalue="JUnit.QuickSortTest.testQuickSort" />
+        <item itemvalue="JUnit.QuickSortTest.testFastSort" />
+        <item itemvalue="JUnit.FileTest.fileListTest" />
+        <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
+        <item itemvalue="JUnit.LinkListTest.testRangeReverseSingle" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +341,8 @@
       <workItem from="1703253630278" duration="12000" />
       <workItem from="1703253793694" duration="58000" />
       <workItem from="1735538824284" duration="10251000" />
-      <workItem from="1735808346948" duration="35146000" />
+      <workItem from="1735808346948" duration="104069000" />
+      <workItem from="1739952263995" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="清理">
       <created>1641625460235</created>
@@ -456,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1680707722429</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sort and binary">
+      <option name="closed" value="true" />
+      <created>1738863892109</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738863892109</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +498,8 @@
     <MESSAGE value="清理" />
     <MESSAGE value="fill note" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="sort and binary" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort and binary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
